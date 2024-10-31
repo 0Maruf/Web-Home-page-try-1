@@ -1,0 +1,144 @@
+body{
+    background: url("/Background.jpg");
+    background-size: 1400px 800px ;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+    /* z-index: -1; */
+}
+body{
+    margin: 0;
+}
+picture{
+    height: 70px ;
+    width: 100px ;
+}
+.head-section{
+    color:#ffffff;
+    position: relative;
+    margin-left:20px ;
+    margin-top: -15px;
+    float: left;
+    
+}
+.picture{
+    float: left;
+}
+
+form{
+    width: 550px;
+    margin: 50px auto;
+    padding: 50px 0;
+    text-align: center;
+    box-shadow: 0 40px 60px rgb(0,0,0) ;
+}
+.a{
+    margin: 30px auto;
+    width: 80%;
+    position: relative;
+    box-shadow: 0 8px 10px -10px rgb(0,0,0)  ;
+}
+input{
+    width: 80%;
+    height: 38px;
+    border: none ;
+    background: #efefef; 
+    padding-left: 50px;
+
+}
+span{
+    position:absolute;
+    left: 0;
+    top: 0;
+    height: 40px;
+    width: 40px;
+    background: linear-gradient(to right , #4CAF50,#00BCD4);
+}
+button{
+    width: 120px;
+    height: 30px;
+    margin-left: 10%;
+    display: block;
+    color: #fff;
+    border: 0 ;
+    font-size: 20px;
+    outline: none;
+    background: linear-gradient(to right , #4CAF50,#00BCD4);
+    box-shadow: 0 8px 10px -10px rgb(0,0,0)  ;
+    cursor: pointer;
+    border-radius: 40px;
+    margin-top: 30px;
+
+}
+button .fa{
+    margin-right:10px;
+}
+img{
+    height: 90px;
+    width: 90px;
+    /* margin-top: 0px; */
+    padding: 10px;
+    border-radius: 50%;
+}
+.icon{
+    /* margin:0 auto; */
+    /* border: 2px solid; */
+    margin-top: 10px ;
+}
+.image{
+    border: 2px solid #4CAF50;
+    margin-top: 10px;
+}
+.card-container{
+    border: 1px solid red;
+    display: flex;
+    width: 1345px;
+    height: 650px;
+    margin-bottom: 50px;
+    
+}
+.card-1{
+    width: 30%;
+    height: auto;
+    border: 1px solid blue;
+    margin-left: 3px ;
+    color: #fff;
+
+}
+.card-2{
+
+    width: 50%;
+    height: auto;
+    border: 1px solid rgb(5, 213, 53);
+}
+.nav-section{
+    margin-bottom: 30px;
+    display: flex;
+    justify-content: space-between;
+    border: 2px solid red;
+    margin-top: 10px;
+    margin-bottom: 20px; 
+}
+
+.btn-containur{
+    display: flex;
+   
+}
+
+.logo-containur{
+    display: flex;
+    color: #fff;
+}
+a{
+    text-decoration: none;
+    color: black;
+}
+ .crad-3{
+    background-color:black;
+    color: white;
+    text-align: center;
+ }
+ .crad-3 , a{
+    padding: 10px ;
+    color: #fff;
+ }
